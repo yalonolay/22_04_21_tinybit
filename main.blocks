@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="X@2olQ$GXzLDp(;djQk9" x="690" y="0"><statement name="HANDLER"><block type="playMelody" id="v[YS%JU^5YJf;r)ccGhn"><value name="melody"><shadow type="melody_editor" id="[}YH|u_Ow/#:[Ffp*wo3"><field name="melody">"C C F F G G C C "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="$yE!{M?Fu$mufbK0!;ao"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">85</field></shadow></value><next><block type="device_show_leds" id="[gG|:7;4BZyYu~x_aEy="><field name="LEDS">`
+        . # # # . 
+        . # . # . 
+        . . # . . 
+        # . . # . 
+        . . . . .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="e)}Pjz1(x2HRvL1*fWZH" x="1034" y="247"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="basic_show_arrow" id="|F,#V8.h?!WHn5,zsg!B"><value name="i"><shadow type="device_arrow" id="b`Y{_GmuI?sD3dk#Km}G"><field name="arrow">ArrowNames.South</field></shadow></value><next><block type="device_show_number" id="?#Iwm0|CR+*bUFodj:U8"><value name="number"><shadow type="math_number" id="Rj+IJ2WlH-gyVAo5A0tf"><field name="NUM">1000</field></shadow></value></block></next></block></statement></block></xml>
